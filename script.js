@@ -34,14 +34,6 @@ function submitForm() {
 }
 
 function formSuccess() {
-	/*$("#msgSubmit" ).removeClass( "hidden" );
-	document.getElementById('msgSubmit').innerHTML = 'Message submitted!';
-	setTimeout( function () {
-		$("#msgSubmit" ).addClass( "hidden" );
-		}, 5000
-	);
-}*/
-
 $("#contactForm")[0].reset();
 submitMSG(true, "Message Submitted!") 
 }
